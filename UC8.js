@@ -28,3 +28,26 @@ if (nomePeca.length >3){
 } else{
     console.log("O nome deve ter mais de 3 caracteres, digite um nome adequado")
 }
+
+
+// encontro remoto 2 
+// Considere a quantidade de alunos presentes na sala, percorra do zero até o número total e rerornar os seguintes resultados :
+
+
+//- se o número par, escreva 'par' e o número correspondente
+//- se o número for ímpar, escreva 'impar' e o número correspondente
+//- Se o número for zero, escreva 'zero' 
+
+let numeroDeAlunos = 10
+
+for (let contador = 0; contador <= numeroDeAlunos; contador++){
+    console.log (contador)
+
+    if (contador == 0){
+        console.log("o numero ataual é zero");
+    }else if (contador % 2 == 0){
+        console.log("O numero " + contador + " é PAR")
+    }else{
+        console.log(`O numero ${contador} é IMPAR`)
+    }
+}
